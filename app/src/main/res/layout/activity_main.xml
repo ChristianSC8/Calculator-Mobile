@@ -225,4 +225,12 @@
         app:layout_constraintEnd_toEndOf="@+id/buttPI"
         app:layout_constraintStart_toStartOf="@+id/buttPotencia"
         app:layout_constraintTop_toBottomOf="@+id/buttPotencia" />
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/contentCompose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/buttPI"
+        app:layout_constraintStart_toStartOf="@+id/buttPotencia"
+        app:layout_constraintTop_toBottomOf="@+id/buttModulo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
